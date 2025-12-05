@@ -1,0 +1,40 @@
+{
+  "page_title": "Search - Erasmus+",
+  "h1": null,
+  "sections": [
+    {
+      "header": "EAC Footer",
+      "content": []
+    },
+    {
+      "header": "Helpful links",
+      "content": []
+    },
+    {
+      "header": "Quick links",
+      "content": []
+    },
+    {
+      "header": "Contact",
+      "content": []
+    },
+    {
+      "header": "Erasmus+",
+      "content": []
+    },
+    {
+      "header": "About us",
+      "content": []
+    },
+    {
+      "header": "Follow us",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Follow the European Commission"
+        }
+      ]
+    }
+  ],
+  "_source_url": "https://erasmus-plus.ec.europa.eu/projects/search/details/101241135"
+}

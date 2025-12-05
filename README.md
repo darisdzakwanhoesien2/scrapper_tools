@@ -2,6 +2,8 @@
 
 This document contains the complete project boilerplate for the **streamlit_scraper_app** described earlier. Each file is provided as a code block. Save the files with the exact paths shown.
 
+https://chatgpt.com/c/6931b341-0b30-8332-a1ee-4577d084f8cb
+
 ---
 
 ```
@@ -77,4 +79,3 @@ streamlit run app.py
 
 ```
 ```
-# scrapper_tools

@@ -49,20 +49,25 @@ st.set_page_config(page_title="Scraper App", layout="wide")
 dataset = DatasetService()
 storage = StorageService()
 
-# Sidebar
+# Sidebar UI
 sidebar_layout()
 
 # ---------------------------------------------------------
-# UI Header
+# Page Header
 # ---------------------------------------------------------
 st.title("🌐 URL Scraper Tool")
+
+st.markdown("""
+Enter one or multiple URLs to scrape.  
+Use multiple lines for bulk scraping.
+""")
 
 # ---------------------------------------------------------
 # Scrape Form
 # ---------------------------------------------------------
 with st.form("scrape_form"):
     urls_text = st.text_area(
-        "Enter URL(s) to scrape. One URL per line.",
+        "Enter URL(s) to scrape, one per line:",
         placeholder="https://example.com/page1\nhttps://example.com/page2"
     )
     paginate = st.checkbox("Enable pagination", True)
@@ -70,7 +75,7 @@ with st.form("scrape_form"):
     save_file = st.checkbox("Save result to JSON file", True)
     submit = st.form_submit_button("Scrape")
 
-# Convert textarea into clean list of URLs
+# Convert textarea to list of URLs
 urls = [u.strip() for u in urls_text.split("\n") if u.strip()]
 
 # ---------------------------------------------------------
@@ -80,34 +85,53 @@ if submit:
     if not urls:
         st.error("Please enter at least one URL.")
     else:
-        st.info(f"Scraping {len(urls)} URL(s)...")
+        st.info(f"Starting scraping for {len(urls)} URL(s)...")
 
         for url in urls:
 
-            # --- Start scraping
+            # ---------------------------------------------------------
+            # Check if URL was already scraped
+            # ---------------------------------------------------------
+            if dataset.has_url(url):
+                st.warning(f"⏭️ Skipped (already scraped): {url}")
+                logger.info(f"SKIPPED | {url}")
+                continue
+
+            # ---------------------------------------------------------
+            # Perform scraping
+            # ---------------------------------------------------------
             with st.spinner(f"Scraping {url} ..."):
                 result = scrape_url(url, paginate=paginate)
 
-            # --- Error Handling
+            # ---------------------------------------------------------
+            # Error handling
+            # ---------------------------------------------------------
             if result.get("error"):
                 st.error(f"❌ Error scraping {url}: {result['error']}")
-                logger.error(f"ERROR {url} → {result['error']}")
+                logger.error(f"ERROR | {url} | {result['error']}")
                 continue
 
-            # --- Success
+            # ---------------------------------------------------------
+            # Mark success
+            # ---------------------------------------------------------
             st.success(f"✅ Scrape successful: {url}")
+
+            # Attach source URL **before saving**
+            result["data"]["_source_url"] = url
+
+            # Show JSON preview
             st.json(result["data"])
 
             # ---------------------------------------------------------
-            # SAVE FILE IF ENABLED
+            # Save to file
             # ---------------------------------------------------------
             if save_file:
                 filepath = storage.save_json(url, result["data"])
                 st.info(f"📁 Saved to: `{filepath}`")
-                logger.info(f"SUCCESS {url} → {filepath}")
+                logger.info(f"SUCCESS | {url} → {filepath}")
 
             # ---------------------------------------------------------
-            # MERGE INTO DATASET IF ENABLED
+            # Merge into dataset
             # ---------------------------------------------------------
             if merge_data:
                 merge_info = dataset.merge(result["data"])
@@ -118,10 +142,101 @@ if submit:
                 )
 
 # ---------------------------------------------------------
-# SHOW DATASET VIEWER
+# Dataset Viewer (existing UI)
 # ---------------------------------------------------------
 st.markdown("---")
 main_layout(dataset)
+
+
+# import streamlit as st
+# from core.scraper import scrape_url
+# from services.dataset_service import DatasetService
+# from services.storage_service import StorageService
+# from utils.logger import logger
+# from ui.layout import sidebar_layout, main_layout
+
+# # ---------------------------------------------------------
+# # Streamlit Page Config
+# # ---------------------------------------------------------
+# st.set_page_config(page_title="Scraper App", layout="wide")
+
+# # Core services
+# dataset = DatasetService()
+# storage = StorageService()
+
+# # Sidebar
+# sidebar_layout()
+
+# # ---------------------------------------------------------
+# # UI Header
+# # ---------------------------------------------------------
+# st.title("🌐 URL Scraper Tool")
+
+# # ---------------------------------------------------------
+# # Scrape Form
+# # ---------------------------------------------------------
+# with st.form("scrape_form"):
+#     urls_text = st.text_area(
+#         "Enter URL(s) to scrape. One URL per line.",
+#         placeholder="https://example.com/page1\nhttps://example.com/page2"
+#     )
+#     paginate = st.checkbox("Enable pagination", True)
+#     merge_data = st.checkbox("Merge into dataset", True)
+#     save_file = st.checkbox("Save result to JSON file", True)
+#     submit = st.form_submit_button("Scrape")
+
+# # Convert textarea into clean list of URLs
+# urls = [u.strip() for u in urls_text.split("\n") if u.strip()]
+
+# # ---------------------------------------------------------
+# # SCRAPING LOGIC
+# # ---------------------------------------------------------
+# if submit:
+#     if not urls:
+#         st.error("Please enter at least one URL.")
+#     else:
+#         st.info(f"Scraping {len(urls)} URL(s)...")
+
+#         for url in urls:
+
+#             # --- Start scraping
+#             with st.spinner(f"Scraping {url} ..."):
+#                 result = scrape_url(url, paginate=paginate)
+
+#             # --- Error Handling
+#             if result.get("error"):
+#                 st.error(f"❌ Error scraping {url}: {result['error']}")
+#                 logger.error(f"ERROR {url} → {result['error']}")
+#                 continue
+
+#             # --- Success
+#             st.success(f"✅ Scrape successful: {url}")
+#             st.json(result["data"])
+
+#             # ---------------------------------------------------------
+#             # SAVE FILE IF ENABLED
+#             # ---------------------------------------------------------
+#             if save_file:
+#                 filepath = storage.save_json(url, result["data"])
+#                 st.info(f"📁 Saved to: `{filepath}`")
+#                 logger.info(f"SUCCESS {url} → {filepath}")
+
+#             # ---------------------------------------------------------
+#             # MERGE INTO DATASET IF ENABLED
+#             # ---------------------------------------------------------
+#             if merge_data:
+#                 merge_info = dataset.merge(result["data"])
+#                 st.info(
+#                     f"📊 Dataset updated for {url}: "
+#                     f"{merge_info['added']} added, "
+#                     f"{merge_info['deduped']} duplicates removed."
+#                 )
+
+# # ---------------------------------------------------------
+# # SHOW DATASET VIEWER
+# # ---------------------------------------------------------
+# st.markdown("---")
+# main_layout(dataset)
 
 
 

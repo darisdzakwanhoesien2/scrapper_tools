@@ -1,2 +1,27 @@
 2025-12-04 18:42:40,200 - INFO - SUCCESS https://www.wgtn.ac.nz/international/scholarships-fees/scholarships → data/raw/2025-12-04T16-42-40_scholarships.json
 2025-12-04 18:42:40,512 - INFO - SUCCESS https://www.wgtn.ac.nz/research/research-degrees → data/raw/2025-12-04T16-42-40_research-degrees.json
+2025-12-05 08:27:49,807 - INFO - SUCCESS https://admission.stanford.edu/apply/international/index.html → data/raw/2025-12-05T06-27-49_index_html.json
+2025-12-05 08:27:51,455 - INFO - SUCCESS https://www.gsd.harvard.edu/resources/scholarships-for-international-students/ → data/raw/2025-12-05T06-27-51_index.json
+2025-12-05 08:44:26,879 - INFO - SUCCESS https://www.dcu.ie/scholarships/international-scholarships → data/raw/2025-12-05T06-44-26_international-scholarships.json
+2025-12-05 08:44:27,170 - INFO - SUCCESS https://www.dcu.ie/scholarships → data/raw/2025-12-05T06-44-27_scholarships.json
+2025-12-05 08:44:27,626 - INFO - SUCCESS https://www.dcu.ie/scholarships/undergraduate-merit-awards-and-prizes → data/raw/2025-12-05T06-44-27_undergraduate-merit-awards-and-prizes.json
+2025-12-05 08:44:27,893 - INFO - SUCCESS https://www.dcu.ie/scholarships/postgraduate-scholarships-awards-prizes → data/raw/2025-12-05T06-44-27_postgraduate-scholarships-awards-prizes.json
+2025-12-05 08:44:29,328 - INFO - SUCCESS https://www.dcu.ie/scholarships/equality-diversity-inclusion-scholarships → data/raw/2025-12-05T06-44-29_equality-diversity-inclusion-scholarships.json
+2025-12-05 08:44:29,797 - INFO - SUCCESS https://www.dcu.ie/sportscholarships → data/raw/2025-12-05T06-44-29_sportscholarships.json
+2025-12-05 08:44:30,142 - INFO - SUCCESS https://www.dcu.ie/scholarships/full-list-scholarships-awards-and-prizes → data/raw/2025-12-05T06-44-30_full-list-scholarships-awards-and-prizes.json
+2025-12-05 08:44:30,621 - INFO - SUCCESS https://www.dcu.ie/courses#tab-99371-3 → data/raw/2025-12-05T06-44-30_courses_tab-99371-3.json
+2025-12-05 08:44:31,380 - INFO - SUCCESS https://www.dcu.ie/courses → data/raw/2025-12-05T06-44-31_courses.json
+2025-12-05 08:44:31,881 - INFO - SUCCESS https://www.wgtn.ac.nz/study/programmes-courses/postgraduate-subjects → data/raw/2025-12-05T06-44-31_postgraduate-subjects.json
+2025-12-05 08:44:32,929 - INFO - SUCCESS https://www.wgtn.ac.nz/study/programmes-courses/subjects → data/raw/2025-12-05T06-44-32_subjects.json
+2025-12-05 08:44:34,017 - INFO - SUCCESS https://www.wgtn.ac.nz/study/programmes-courses/courses → data/raw/2025-12-05T06-44-34_courses.json
+2025-12-05 08:53:44,836 - INFO - SUCCESS https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-business-administration-accounting → data/raw/2025-12-05T06-53-44_phd-business-administration-accounting.json
+2025-12-05 08:53:46,300 - INFO - SUCCESS https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/graduate-certificate-adult-learning-education → data/raw/2025-12-05T06-53-46_graduate-certificate-adult-learning-education.json
+2025-12-05 09:09:17,960 - INFO - SUCCESS | https://artsci.calendar.utoronto.ca/section/Actuarial-Science → data/raw/2025-12-05T07-09-17_Actuarial-Science.json
+2025-12-05 09:09:18,715 - INFO - SUCCESS | https://artsci.calendar.utoronto.ca/section/Cell-and-Systems-Biology → data/raw/2025-12-05T07-09-18_Cell-and-Systems-Biology.json
+2025-12-05 09:13:42,353 - INFO - SUCCESS | https://www.cybersure-master.eu/ → data/raw/2025-12-05T07-13-42_index.json
+2025-12-05 09:13:42,709 - ERROR - ERROR | https://deai.ulb.be/ | HTTPSConnectionPool(host='deai.ulb.be', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)')))
+2025-12-05 09:13:45,157 - INFO - SUCCESS | https://master-remplus2.eu/ → data/raw/2025-12-05T07-13-45_index.json
+2025-12-05 09:13:46,503 - INFO - SUCCESS | https://www.master-sucat.eu/ → data/raw/2025-12-05T07-13-46_index.json
+2025-12-05 09:13:47,672 - INFO - SUCCESS | https://master-international-law-erasmusmundus.eu/ → data/raw/2025-12-05T07-13-47_index.json
+2025-12-05 09:13:47,946 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101241135 → data/raw/2025-12-05T07-13-47_101241135.json
+2025-12-05 09:13:48,171 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101241133 → data/raw/2025-12-05T07-13-48_101241133.json

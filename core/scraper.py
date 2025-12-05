@@ -104,24 +104,30 @@ def extract_structured_html(base_url, soup):
 
     return data
 
-
 def extract_section_content(h2_tag):
     section = []
+
     for sib in h2_tag.find_all_next():
+        # Stop when next section begins
         if sib.name == "h2":
             break
 
+        # Paragraphs
         if sib.name == "p":
             section.append({
                 "type": "paragraph",
                 "text": sib.get_text(strip=True)
             })
 
-        # Detect “cards”
+        # Cards (div with <h3>)
         if sib.name == "div" and sib.find("h3"):
             card_title = sib.find("h3").get_text(strip=True)
-            desc = sib.find("p").get_text(strip=True) if sib.find("p") else ""
-            link = sib.find("a")["href"] if sib.find("a") else None
+
+            desc_tag = sib.find("p")
+            desc = desc_tag.get_text(strip=True) if desc_tag else ""
+
+            a = sib.find("a")     # <-- safer extraction
+            link = a.get("href") if a and a.has_attr("href") else None
 
             section.append({
                 "type": "card",
@@ -131,6 +137,33 @@ def extract_section_content(h2_tag):
             })
 
     return section
+
+# def extract_section_content(h2_tag):
+#     section = []
+#     for sib in h2_tag.find_all_next():
+#         if sib.name == "h2":
+#             break
+
+#         if sib.name == "p":
+#             section.append({
+#                 "type": "paragraph",
+#                 "text": sib.get_text(strip=True)
+#             })
+
+#         # Detect “cards”
+#         if sib.name == "div" and sib.find("h3"):
+#             card_title = sib.find("h3").get_text(strip=True)
+#             desc = sib.find("p").get_text(strip=True) if sib.find("p") else ""
+#             link = sib.find("a")["href"] if sib.find("a") else None
+
+#             section.append({
+#                 "type": "card",
+#                 "title": card_title,
+#                 "description": desc,
+#                 "link": link
+#             })
+
+#     return section
 
 
 # # core/scraper.py

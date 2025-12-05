@@ -5,3 +5,5 @@ pandas
 python-dateutil
 schedule
 validators
+selenium
+webdriver-manager
