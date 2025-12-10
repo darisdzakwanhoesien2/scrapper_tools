@@ -1,0 +1,32 @@
+{
+  "page_title": "A Dataset of Sustainable Diet Arguments on Twitter - ACL Anthology",
+  "h1": null,
+  "sections": [
+    {
+      "header": "A Dataset of Sustainable Diet Arguments onTwitter",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Marcus Hansen,Daniel Hershcovich"
+        },
+        {
+          "type": "paragraph",
+          "text": "[A Dataset of Sustainable Diet Arguments on Twitter](https://aclanthology.org/2022.nlp4pi-1.5/) (Hansen & Hershcovich, NLP4PI 2022)"
+        },
+        {
+          "type": "paragraph",
+          "text": "ACL materials are Copyright \u00a9\u00a01963\u20132025 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under theCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on aCreative Commons Attribution 4.0 International License."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ACL Anthology is managed and built by theACL Anthology teamof volunteers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Site last built on 06 December 2025 at 00:14 UTC withcommit 4bd2797."
+        }
+      ]
+    }
+  ],
+  "_source_url": "https://aclanthology.org/2022.nlp4pi-1.5"
+}

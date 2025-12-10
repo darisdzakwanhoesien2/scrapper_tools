@@ -1,0 +1,32 @@
+{
+  "page_title": "EnClaim: A Style Augmented Transformer Architecture for Environmental Claim Detection - ACL Anthology",
+  "h1": null,
+  "sections": [
+    {
+      "header": "EnClaim: A Style Augmented Transformer Architecture for Environmental Claim Detection",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Diya Saha,Manjira Sinha,Tirthankar Dasgupta"
+        },
+        {
+          "type": "paragraph",
+          "text": "[EnClaim: A Style Augmented Transformer Architecture for Environmental Claim Detection](https://aclanthology.org/2024.climatenlp-1.9/) (Saha et al., ClimateNLP 2024)"
+        },
+        {
+          "type": "paragraph",
+          "text": "ACL materials are Copyright \u00a9\u00a01963\u20132025 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under theCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on aCreative Commons Attribution 4.0 International License."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ACL Anthology is managed and built by theACL Anthology teamof volunteers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Site last built on 06 December 2025 at 00:14 UTC withcommit 4bd2797."
+        }
+      ]
+    }
+  ],
+  "_source_url": "https://aclanthology.org/2024.climatenlp-1.9/"
+}

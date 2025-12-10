@@ -25,3 +25,110 @@
 2025-12-05 09:13:47,672 - INFO - SUCCESS | https://master-international-law-erasmusmundus.eu/ → data/raw/2025-12-05T07-13-47_index.json
 2025-12-05 09:13:47,946 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101241135 → data/raw/2025-12-05T07-13-47_101241135.json
 2025-12-05 09:13:48,171 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101241133 → data/raw/2025-12-05T07-13-48_101241133.json
+2025-12-05 09:26:33,169 - INFO - ====== WebDriver manager ======
+2025-12-05 09:26:45,386 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:45,511 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:45,571 - INFO - There is no [mac64] chromedriver "142.0.7444.175" for browser google-chrome "142.0.7444" in cache
+2025-12-05 09:26:45,586 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:45,864 - INFO - WebDriver version 142.0.7444.175 selected
+2025-12-05 09:26:45,867 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-05 09:26:45,867 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-05 09:26:46,066 - INFO - Driver downloading response is 200
+2025-12-05 09:26:46,327 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:46,674 - INFO - Driver has been saved in cache [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175]
+2025-12-05 09:26:46,694 - ERROR - ERROR | https://erasmus-plus.ec.europa.eu/projects/search/details/101239651 | Dynamic scraping failed: WebDriver.__init__() got multiple values for argument 'options'
+2025-12-05 09:26:46,800 - INFO - ====== WebDriver manager ======
+2025-12-05 09:26:46,924 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:46,983 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:47,046 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-05 09:26:47,047 - ERROR - ERROR | https://erasmus-plus.ec.europa.eu/projects/search/details/101238854 | Dynamic scraping failed: WebDriver.__init__() got multiple values for argument 'options'
+2025-12-05 09:26:47,149 - INFO - ====== WebDriver manager ======
+2025-12-05 09:26:47,270 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:47,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:26:47,423 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-05 09:26:47,425 - ERROR - ERROR | https://erasmus-plus.ec.europa.eu/projects/search/details/101238242 | Dynamic scraping failed: WebDriver.__init__() got multiple values for argument 'options'
+2025-12-05 09:45:32,035 - INFO - ====== WebDriver manager ======
+2025-12-05 09:45:32,883 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:45:33,015 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:45:33,080 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-05 09:45:51,305 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101241222 → data/raw/2025-12-05T07-45-51_101241222.json
+2025-12-05 09:45:51,446 - INFO - ====== WebDriver manager ======
+2025-12-05 09:45:51,740 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:45:51,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:45:51,875 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-05 09:45:57,654 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101240871 → data/raw/2025-12-05T07-45-57_101240871.json
+2025-12-05 09:45:57,759 - INFO - ====== WebDriver manager ======
+2025-12-05 09:45:57,911 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:45:59,107 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-05 09:45:59,166 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-05 09:46:04,576 - INFO - SUCCESS | https://erasmus-plus.ec.europa.eu/projects/search/details/101241310 → data/raw/2025-12-05T07-46-04_101241310.json
+2025-12-06 12:56:08,043 - INFO - ====== WebDriver manager ======
+2025-12-06 12:56:09,497 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-06 12:56:14,652 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-06 12:56:15,178 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-06 12:56:15,374 - INFO - WebDriver version 142.0.7444.175 selected
+2025-12-06 12:56:15,377 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-06 12:56:15,377 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/142.0.7444.175/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-06 12:56:15,687 - INFO - Driver downloading response is 200
+2025-12-06 12:56:16,020 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-06 12:56:23,316 - INFO - Driver has been saved in cache [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175]
+2025-12-06 12:56:33,776 - INFO - SUCCESS | https://opas.peppi.oulu.fi/en/course/031025A/169?period=2025-2026 → data/raw/2025-12-06T10-56-33_169_period_2025-2026.json
+2025-12-06 12:56:33,812 - INFO - ====== WebDriver manager ======
+2025-12-06 12:56:33,964 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-06 12:56:34,029 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-06 12:56:34,086 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-06 12:56:38,932 - INFO - SUCCESS | https://opas.peppi.oulu.fi/en/course/521156S/7440?period=2025-2026 → data/raw/2025-12-06T10-56-38_7440_period_2025-2026.json
+2025-12-07 19:51:01,500 - INFO - SUCCESS | https://aclanthology.org/2023.emnlp-main.975 → data/raw/2025-12-07T17-51-01_2023_emnlp-main_975.json
+2025-12-07 19:51:01,889 - INFO - SUCCESS | https://aclanthology.org/2024.climatenlp-1.9/ → data/raw/2025-12-07T17-51-01_index.json
+2025-12-07 19:51:02,404 - INFO - SUCCESS | https://aclanthology.org/2024.climatenlp-1.9 → data/raw/2025-12-07T17-51-02_2024_climatenlp-1_9.json
+2025-12-07 19:51:02,893 - INFO - SUCCESS | https://aclanthology.org/2023.acl-short.91 → data/raw/2025-12-07T17-51-02_2023_acl-short_91.json
+2025-12-07 19:51:03,548 - INFO - SUCCESS | https://aclanthology.org/2022.csrnlp-1.1 → data/raw/2025-12-07T17-51-03_2022_csrnlp-1_1.json
+2025-12-07 19:51:04,031 - INFO - SUCCESS | https://aclanthology.org/2023.swisstext-1.0 → data/raw/2025-12-07T17-51-04_2023_swisstext-1_0.json
+2025-12-07 19:51:04,580 - ERROR - ERROR | https://aclanthology.org/2022.emnlp-main.159 | Request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 19:51:05,160 - INFO - SUCCESS | https://aclanthology.org/2024.climatenlp-1.6 → data/raw/2025-12-07T17-51-05_2024_climatenlp-1_6.json
+2025-12-07 19:51:05,733 - INFO - SUCCESS | https://aclanthology.org/volumes/2024.climatenlp-1/ → data/raw/2025-12-07T17-51-05_index.json
+2025-12-07 19:51:06,376 - INFO - SUCCESS | https://aclanthology.org/people/m/manjira-sinha/ → data/raw/2025-12-07T17-51-06_index.json
+2025-12-07 19:51:07,165 - INFO - SUCCESS | https://aclanthology.org/2024.case-1.23 → data/raw/2025-12-07T17-51-07_2024_case-1_23.json
+2025-12-07 19:51:07,737 - INFO - SUCCESS | https://aclanthology.org/2024.finnlp-1.20 → data/raw/2025-12-07T17-51-07_2024_finnlp-1_20.json
+2025-12-07 19:51:08,307 - INFO - SUCCESS | https://aclanthology.org/2024.finnlp-1.14 → data/raw/2025-12-07T17-51-08_2024_finnlp-1_14.json
+2025-12-07 19:51:09,103 - INFO - SUCCESS | https://aclanthology.org/people/t/tirthankar-dasgupta/ → data/raw/2025-12-07T17-51-09_index.json
+2025-12-07 19:51:09,840 - INFO - SUCCESS | https://aclanthology.org/2024.climatenlp-1 → data/raw/2025-12-07T17-51-09_2024_climatenlp-1.json
+2025-12-07 19:51:10,416 - INFO - SUCCESS | https://aclanthology.org/2024.acl-long.749 → data/raw/2025-12-07T17-51-10_2024_acl-long_749.json
+2025-12-07 19:51:11,086 - INFO - SUCCESS | https://aclanthology.org/people/d/diya-saha/ → data/raw/2025-12-07T17-51-11_index.json
+2025-12-07 19:51:11,721 - INFO - SUCCESS | https://aclanthology.org/2024.emnlp-main.969 → data/raw/2025-12-07T17-51-11_2024_emnlp-main_969.json
+2025-12-07 19:51:12,111 - INFO - SUCCESS | https://aclanthology.org/2022.inlg-main.20/ → data/raw/2025-12-07T17-51-12_index.json
+2025-12-07 19:51:12,524 - ERROR - ERROR | https://aclanthology.org/2021.naacl-main.175 | Request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 19:51:12,964 - INFO - SUCCESS | https://aclanthology.org/2023.emnlp-main.975/ → data/raw/2025-12-07T17-51-12_index.json
+2025-12-07 19:51:13,399 - ERROR - ERROR | https://aclanthology.org/2022.csrnlp-1 | Request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 19:51:13,982 - INFO - SUCCESS | https://aclanthology.org/2024.case-1.15 → data/raw/2025-12-07T17-51-13_2024_case-1_15.json
+2025-12-07 19:51:14,564 - INFO - SUCCESS | https://aclanthology.org/2022.nlp4pi-1.5 → data/raw/2025-12-07T17-51-14_2022_nlp4pi-1_5.json
+2025-12-07 19:51:15,289 - INFO - SUCCESS | https://aclanthology.org/2024.finnlp-1 → data/raw/2025-12-07T17-51-15_2024_finnlp-1.json
+2025-12-07 19:51:15,801 - INFO - SUCCESS | https://aclanthology.org/2024.climatenlp-1.2 → data/raw/2025-12-07T17-51-15_2024_climatenlp-1_2.json
+2025-12-07 19:51:16,376 - INFO - SUCCESS | https://aclanthology.org/2024.lrec-main.756 → data/raw/2025-12-07T17-51-16_2024_lrec-main_756.json
+2025-12-07 19:51:16,876 - INFO - SUCCESS | https://aclanthology.org/2023.emnlp-demo.3 → data/raw/2025-12-07T17-51-16_2023_emnlp-demo_3.json
+2025-12-07 19:51:17,374 - INFO - SUCCESS | https://aclanthology.org/2024.findings-acl.330 → data/raw/2025-12-07T17-51-17_2024_findings-acl_330.json
+2025-12-07 19:51:17,878 - INFO - SUCCESS | https://aclanthology.org/2024.acl-long.105 → data/raw/2025-12-07T17-51-17_2024_acl-long_105.json
+2025-12-07 19:51:18,362 - INFO - SUCCESS | https://aclanthology.org/2023.eacl-main.37 → data/raw/2025-12-07T17-51-18_2023_eacl-main_37.json
+2025-12-07 19:51:18,892 - INFO - SUCCESS | https://aclanthology.org/2024.lrec-main.1548 → data/raw/2025-12-07T17-51-18_2024_lrec-main_1548.json
+2025-12-07 19:51:19,381 - INFO - SUCCESS | https://aclanthology.org/2024.fever-1.27 → data/raw/2025-12-07T17-51-19_2024_fever-1_27.json
+2025-12-07 19:51:19,875 - INFO - SUCCESS | https://aclanthology.org/2023.wassa-1.42 → data/raw/2025-12-07T17-51-19_2023_wassa-1_42.json
+2025-12-07 19:51:20,670 - INFO - SUCCESS | https://aclanthology.org/2024.acl-long.104 → data/raw/2025-12-07T17-51-20_2024_acl-long_104.json
+2025-12-07 19:51:21,121 - ERROR - ERROR | https://aclanthology.org/2024.case-1 | Request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-12-07 19:51:21,743 - INFO - SUCCESS | https://aclanthology.org/2022.nlp4pi-1 → data/raw/2025-12-07T17-51-21_2022_nlp4pi-1.json
+2025-12-10 20:09:44,163 - INFO - ====== WebDriver manager ======
+2025-12-10 20:09:44,701 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-10 20:09:44,812 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-10 20:09:44,866 - INFO - There is no [mac64] chromedriver "143.0.7499.40" for browser google-chrome "143.0.7499" in cache
+2025-12-10 20:09:44,872 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-10 20:09:45,136 - INFO - WebDriver version 143.0.7499.40 selected
+2025-12-10 20:09:45,139 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.40/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-10 20:09:45,140 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/143.0.7499.40/mac-arm64/chromedriver-mac-arm64.zip
+2025-12-10 20:09:45,345 - INFO - Driver downloading response is 200
+2025-12-10 20:09:46,514 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-10 20:09:46,901 - INFO - Driver has been saved in cache [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/143.0.7499.40]
+2025-12-10 20:09:52,711 - INFO - SUCCESS | https://aiesec.org/opportunity/global-talent/1330505 → data/raw/2025-12-10T18-09-52_1330505.json
+2025-12-10 20:09:53,067 - INFO - ====== WebDriver manager ======
+2025-12-10 20:09:53,210 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-10 20:09:53,270 - INFO - Get LATEST chromedriver version for google-chrome
+2025-12-10 20:09:53,339 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/143.0.7499.40/chromedriver-mac-arm64/chromedriver] found in cache
+2025-12-10 20:09:57,936 - INFO - SUCCESS | https://aiesec.org/opportunity/global-talent/1330447 → data/raw/2025-12-10T18-09-57_1330447.json

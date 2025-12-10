@@ -1,0 +1,18 @@
+[
+    {
+        "timestamp": "2025-12-10T20:22:50.030823",
+        "parser_name": "parse_html_to_json_v1",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-10T20-01-58_Requests_1328686.html",
+        "output_json_path": "scraped_html/2025-12-10T20-01-58_Requests_1328686_parse_html_to_json_v1.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-10T20:25:30.006979",
+        "parser_name": "parse_html_to_json_v1",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-10T20-24-57_Requests_1330344.html",
+        "output_json_path": "scraped_html/2025-12-10T20-24-57_Requests_1330344_parse_html_to_json_v1.json",
+        "items_extracted": null
+    }
+]

@@ -1,0 +1,32 @@
+{
+  "page_title": "ClimateBERT-NetZero: Detecting and Assessing Net Zero and Reduction Targets - ACL Anthology",
+  "h1": null,
+  "sections": [
+    {
+      "header": "ClimateBERT-NetZero: Detecting and Assessing Net Zero and Reduction Targets",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tobias Schimanski,Julia Bingler,Mathias Kraus,Camilla Hyslop,Markus Leippold"
+        },
+        {
+          "type": "paragraph",
+          "text": "[ClimateBERT-NetZero: Detecting and Assessing Net Zero and Reduction Targets](https://aclanthology.org/2023.emnlp-main.975/) (Schimanski et al., EMNLP 2023)"
+        },
+        {
+          "type": "paragraph",
+          "text": "ACL materials are Copyright \u00a9\u00a01963\u20132025 ACL; other materials are copyrighted by their respective copyright holders. Materials prior to 2016 here are licensed under theCreative Commons Attribution-NonCommercial-ShareAlike 3.0 International License. Permission is granted to make copies for the purposes of teaching and research. Materials published in or after 2016 are licensed on aCreative Commons Attribution 4.0 International License."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ACL Anthology is managed and built by theACL Anthology teamof volunteers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Site last built on 06 December 2025 at 00:14 UTC withcommit 4bd2797."
+        }
+      ]
+    }
+  ],
+  "_source_url": "https://aclanthology.org/2023.emnlp-main.975/"
+}

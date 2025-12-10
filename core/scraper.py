@@ -52,37 +52,35 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+
 from core.validator import validate_url
+from core.dynamic_scraper import load_dynamic_page   # NEW
 from utils.html_utils import clean_html_text
+from utils.json_utils import normalize_json
 
 
-def scrape_url(url: str, paginate=True):
-    valid = validate_url(url)
-    if not valid["ok"]:
-        return {"error": valid["error"]}
+# -------------------------------------------------------------------
+# Helper: detect empty extraction to trigger Selenium fallback
+# -------------------------------------------------------------------
+def is_empty_extraction(data: dict) -> bool:
+    if not data:
+        return True
 
-    try:
-        resp = requests.get(url, timeout=10, headers={"User-Agent": "ScraperApp/1.0"})
-    except Exception as e:
-        return {"error": str(e)}
+    if isinstance(data, dict):
+        if not data.get("sections") and not data.get("h1"):
+            return True
 
-    content_type = resp.headers.get("Content-Type", "")
-
-    if "application/json" in content_type:
-        try:
-            return {"data": resp.json()}
-        except:
-            return {"error": "JSON parse failed"}
-
-    # HTML scraper
-    soup = BeautifulSoup(resp.text, "html.parser")
-    return {"data": extract_structured_html(url, soup)}
+    return False
 
 
+# -------------------------------------------------------------------
+# HTML extractor
+# (same logic as before, does not require Selenium changes)
+# -------------------------------------------------------------------
 def extract_structured_html(base_url, soup):
     data = {}
 
-    # Page title (from <title>)
+    # Page title
     if soup.title:
         data["page_title"] = soup.title.get_text(strip=True)
 
@@ -93,22 +91,23 @@ def extract_structured_html(base_url, soup):
     # Sections with H2
     sections = []
     for h2 in soup.find_all("h2"):
-        section_name = h2.get_text(strip=True)
-        section_content = extract_section_content(h2)
+        name = h2.get_text(strip=True)
         sections.append({
-            "header": section_name,
-            "content": section_content
+            "header": name,
+            "content": extract_section_content(h2)
         })
 
     data["sections"] = sections
-
     return data
 
+
+# -------------------------------------------------------------------
+# Subsection extractor with safe link handling
+# -------------------------------------------------------------------
 def extract_section_content(h2_tag):
     section = []
 
     for sib in h2_tag.find_all_next():
-        # Stop when next section begins
         if sib.name == "h2":
             break
 
@@ -119,14 +118,14 @@ def extract_section_content(h2_tag):
                 "text": sib.get_text(strip=True)
             })
 
-        # Cards (div with <h3>)
+        # Cards
         if sib.name == "div" and sib.find("h3"):
             card_title = sib.find("h3").get_text(strip=True)
 
             desc_tag = sib.find("p")
             desc = desc_tag.get_text(strip=True) if desc_tag else ""
 
-            a = sib.find("a")     # <-- safer extraction
+            a = sib.find("a")
             link = a.get("href") if a and a.has_attr("href") else None
 
             section.append({
@@ -137,6 +136,205 @@ def extract_section_content(h2_tag):
             })
 
     return section
+
+
+# -------------------------------------------------------------------
+# MAIN SCRAPER — Supports both static + dynamic scraping
+# -------------------------------------------------------------------
+def scrape_url(url: str, paginate=True, use_dynamic=False):
+    valid = validate_url(url)
+    if not valid["ok"]:
+        return {"error": valid["error"]}
+
+    # -----------------------------------------------------
+    # FIRST TRY: STATIC HTML (Requests)
+    # -----------------------------------------------------
+    try:
+        resp = requests.get(url, timeout=10, headers={"User-Agent": "ScraperApp/1.0"})
+    except Exception as e:
+        return {"error": f"Request failed: {e}"}
+
+    content_type = resp.headers.get("Content-Type", "")
+
+    # -----------------------------------------------------
+    # JSON API case (simple)
+    # -----------------------------------------------------
+    if "application/json" in content_type:
+        try:
+            parsed = normalize_json(resp.json())
+            return {"data": parsed}
+        except:
+            return {"error": "Failed to decode JSON"}
+
+    # -----------------------------------------------------
+    # STATIC HTML extraction with BeautifulSoup
+    # -----------------------------------------------------
+    soup = BeautifulSoup(resp.text, "html.parser")
+    extracted = extract_structured_html(url, soup)
+
+    # -----------------------------------------------------
+    # AUTO-DETECT dynamic pages OR force-use-dynamic
+    # -----------------------------------------------------
+    should_use_dynamic = use_dynamic or looks_dynamic_page(resp.text, soup)
+
+    if should_use_dynamic:
+        try:
+            screenshot_path = f"data/raw/{url.split('/')[-1]}_screenshot.png"
+            dynamic_soup = load_dynamic_page(url, screenshot_path=screenshot_path)
+
+            # Re-run structured extractor on rendered HTML
+            extracted = extract_structured_html(url, dynamic_soup)
+
+        except Exception as e:
+            return {"error": f"Dynamic scraping failed: {e}"}
+
+    return {"data": extracted}
+
+# def scrape_url(url: str, paginate=True, use_dynamic=False):
+#     valid = validate_url(url)
+#     if not valid["ok"]:
+#         return {"error": valid["error"]}
+
+#     # -----------------------------------------------------
+#     # FIRST TRY: STATIC (Requests)
+#     # -----------------------------------------------------
+#     try:
+#         resp = requests.get(url, timeout=10, headers={"User-Agent": "ScraperApp/1.0"})
+#     except Exception as e:
+#         return {"error": f"Request failed: {e}"}
+
+#     content_type = resp.headers.get("Content-Type", "")
+
+#     # JSON API
+#     if "application/json" in content_type:
+#         try:
+#             parsed = normalize_json(resp.json())
+#             return {"data": parsed}
+#         except:
+#             return {"error": "Failed to decode JSON"}
+
+#     # Parse HTML
+#     soup = BeautifulSoup(resp.text, "html.parser")
+#     extracted = extract_structured_html(url, soup)
+
+#     # If user forces dynamic OR extracted result looks empty → trigger Selenium
+#     if use_dynamic or is_empty_extraction(extracted):
+#         try:
+#             dynamic_soup = load_dynamic_page(url)
+#             extracted = extract_structured_html(url, dynamic_soup)
+#         except Exception as e:
+#             return {"error": f"Dynamic scraping failed: {e}"}
+
+#     return {"data": extracted}
+
+def looks_dynamic_page(resp_text, soup):
+    """Heuristic to detect JS-rendered pages that need Selenium."""
+    # Page contains almost no meaningful text
+    if len(resp_text) < 5000:
+        return True
+
+    # Placeholder divs or JS-only templates
+    if soup.find("noscript"):
+        return True
+
+    # Many script tags but few actual sections
+    if len(soup.find_all("script")) > 20 and len(soup.find_all("p")) < 3:
+        return True
+
+    # No H1 or no H2 sections
+    if not soup.find("h1") and not soup.find("h2"):
+        return True
+
+    return False
+
+# import requests
+# from bs4 import BeautifulSoup
+# from urllib.parse import urljoin
+# from core.validator import validate_url
+# from utils.html_utils import clean_html_text
+
+
+# def scrape_url(url: str, paginate=True):
+#     valid = validate_url(url)
+#     if not valid["ok"]:
+#         return {"error": valid["error"]}
+
+#     try:
+#         resp = requests.get(url, timeout=10, headers={"User-Agent": "ScraperApp/1.0"})
+#     except Exception as e:
+#         return {"error": str(e)}
+
+#     content_type = resp.headers.get("Content-Type", "")
+
+#     if "application/json" in content_type:
+#         try:
+#             return {"data": resp.json()}
+#         except:
+#             return {"error": "JSON parse failed"}
+
+#     # HTML scraper
+#     soup = BeautifulSoup(resp.text, "html.parser")
+#     return {"data": extract_structured_html(url, soup)}
+
+
+# def extract_structured_html(base_url, soup):
+#     data = {}
+
+#     # Page title (from <title>)
+#     if soup.title:
+#         data["page_title"] = soup.title.get_text(strip=True)
+
+#     # H1
+#     h1 = soup.find("h1")
+#     data["h1"] = h1.get_text(strip=True) if h1 else None
+
+#     # Sections with H2
+#     sections = []
+#     for h2 in soup.find_all("h2"):
+#         section_name = h2.get_text(strip=True)
+#         section_content = extract_section_content(h2)
+#         sections.append({
+#             "header": section_name,
+#             "content": section_content
+#         })
+
+#     data["sections"] = sections
+
+#     return data
+
+# def extract_section_content(h2_tag):
+#     section = []
+
+#     for sib in h2_tag.find_all_next():
+#         # Stop when next section begins
+#         if sib.name == "h2":
+#             break
+
+#         # Paragraphs
+#         if sib.name == "p":
+#             section.append({
+#                 "type": "paragraph",
+#                 "text": sib.get_text(strip=True)
+#             })
+
+#         # Cards (div with <h3>)
+#         if sib.name == "div" and sib.find("h3"):
+#             card_title = sib.find("h3").get_text(strip=True)
+
+#             desc_tag = sib.find("p")
+#             desc = desc_tag.get_text(strip=True) if desc_tag else ""
+
+#             a = sib.find("a")     # <-- safer extraction
+#             link = a.get("href") if a and a.has_attr("href") else None
+
+#             section.append({
+#                 "type": "card",
+#                 "title": card_title,
+#                 "description": desc,
+#                 "link": link
+#             })
+
+#     return section
 
 # def extract_section_content(h2_tag):
 #     section = []
