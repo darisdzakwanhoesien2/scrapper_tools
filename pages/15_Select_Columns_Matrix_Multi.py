@@ -24,14 +24,18 @@ if not json_files:
     st.stop()
 
 
-selected_jsons = st.multiselect(
-    "Choose JSON files:",
-    json_files,
-    key="matrix_multi_json_select"
-)
+# -----------------------------------------------------------
+# FIRST build output table (CSV availability at top)
+# -----------------------------------------------------------
+st.markdown("### 📤 Final Combined Output Will Appear Here (Before Selectors)")
 
-if len(selected_jsons) == 0:
-    st.stop()
+# Placeholder for output
+placeholder_table = st.empty()
+placeholder_dl1 = st.empty()
+placeholder_dl2 = st.empty()
+
+# Temporary variable until rows are built
+final_rows = []
 
 
 # -----------------------------------------------------------
@@ -43,7 +47,7 @@ if os.path.exists(SCRAPE_LOG_FILE):
     logs = json.load(open(SCRAPE_LOG_FILE, "r"))
     logs_df = pd.DataFrame(logs)
 
-    for js in selected_jsons:
+    for js in json_files:
         m = re.search(r"_(\d+)", js)
         opp_id = m.group(1) if m else None
 
@@ -74,13 +78,20 @@ def extract_meta(filename):
 
 
 # -----------------------------------------------------------
-# MASTER: Final wide table rows
+# JSON SELECTION
 # -----------------------------------------------------------
-final_rows = []
+selected_jsons = st.multiselect(
+    "Choose JSON files:",
+    json_files,
+    key="matrix_multi_json_select"
+)
+
+if len(selected_jsons) == 0:
+    st.stop()
 
 
 # -----------------------------------------------------------
-# Process each JSON FILE with its own tick-box matrix
+# PROCESS EACH JSON FILE (build matrix tick-boxes)
 # -----------------------------------------------------------
 for json_file in selected_jsons:
 
@@ -94,7 +105,7 @@ for json_file in selected_jsons:
     ts, opp_id = extract_meta(json_file)
     scrape_url = scrape_url_map.get(json_file)
 
-    # Store checkbox states separately per JSON file
+    # Store checkbox states independently per JSON file
     state_key = f"checks_{json_file}"
 
     if state_key not in st.session_state:
@@ -116,7 +127,7 @@ for json_file in selected_jsons:
 
     checks = st.session_state[state_key]
 
-    # ---------- MATRIX TABLE ----------
+    # ---------- MATRIX CHECKBOXES ----------
     for idx in range(1, N + 1):
         item = data[idx - 1]
         text = item.get("content") or "(empty)"
@@ -130,7 +141,7 @@ for json_file in selected_jsons:
             )
         )
 
-    # ---------- BUILD WIDE ROW ----------
+    # ---------- BUILD FINAL WIDE ROW ----------
     selected_indices = [i for i in range(1, N + 1) if checks[i]]
 
     wide_row = {
@@ -149,6 +160,39 @@ for json_file in selected_jsons:
     final_rows.append(wide_row)
 
 
+# -----------------------------------------------------------
+# BUILD FINAL DATAFRAME AFTER LOOP
+# -----------------------------------------------------------
+
+df_final = pd.DataFrame(final_rows)
+
+# Order columns nicely
+meta_cols = ["json_file", "opportunity_id", "scrape_url", "timestamp"]
+content_cols = sorted([c for c in df_final.columns if c.startswith("content_")])
+df_final = df_final[meta_cols + content_cols]
+
+df_transposed = df_final.set_index("json_file").T
+
+
+# -----------------------------------------------------------
+# SHOW + DOWNLOAD (TOP SECTION)
+# -----------------------------------------------------------
+placeholder_table.dataframe(df_transposed, use_container_width=True)
+
+placeholder_dl1.download_button(
+    "⬇ Download Transposed CSV",
+    df_transposed.to_csv(),
+    file_name="selected_items_multi_json_transposed.csv",
+    mime="text/csv"
+)
+
+placeholder_dl2.download_button(
+    "⬇ Download Combined CSV (Wide Format)",
+    df_final.to_csv(index=False),
+    file_name="selected_items_multi_json.csv",
+    mime="text/csv"
+)
+
 # # -----------------------------------------------------------
 # # Combine into final DataFrame
 # # -----------------------------------------------------------
@@ -158,39 +202,3 @@ for json_file in selected_jsons:
 # df_final = pd.DataFrame(final_rows)
 # st.dataframe(df_final, use_container_width=True)
 
-# -----------------------------------------------------------
-# Combine into final DataFrame
-# -----------------------------------------------------------
-st.markdown("---")
-st.subheader("📊 Final Combined Table (Transposed Format)")
-
-df_final = pd.DataFrame(final_rows)
-
-# Transpose: rows → columns
-df_transposed = df_final.set_index("json_file").T
-
-st.dataframe(df_transposed, use_container_width=True)
-
-# -----------------------------------------------------------
-# Download CSV (transposed)
-# -----------------------------------------------------------
-csv = df_transposed.to_csv()
-
-st.download_button(
-    "⬇ Download Transposed CSV",
-    csv,
-    file_name="selected_items_multi_json_transposed.csv",
-    mime="text/csv"
-)
-
-
-# -----------------------------------------------------------
-# Download CSV
-# -----------------------------------------------------------
-csv = df_final.to_csv(index=False)
-st.download_button(
-    "⬇ Download Combined CSV",
-    csv,
-    file_name="selected_items_multi_json.csv",
-    mime="text/csv"
-)
