@@ -47,5 +47,453 @@
     "timestamp": "2025-12-10T20:24:57.116073",
     "html_path": "scraped_html/2025-12-10T20-24-57_Requests_1330344.html",
     "html_hash": "00c361f79e71d03670d412460a5bb70188f2922a555ef8a9fe3da0df34eb55de"
+  },
+  {
+    "timestamp": "2025-12-11T07:59:09.594464",
+    "url": "https://aiesec.org/opportunity/global-talent/1330287",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330287.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:09.596180",
+    "url": "https://aiesec.org/opportunity/global-talent/1330447",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330447.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:09.617243",
+    "url": "https://aiesec.org/opportunity/global-talent/1330202",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330202.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:09.707556",
+    "url": "https://aiesec.org/opportunity/global-talent/1330126",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330126.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:09.847988",
+    "url": "https://aiesec.org/opportunity/global-talent/1330113",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330113.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:10.169476",
+    "url": "https://aiesec.org/opportunity/global-talent/1330505",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330505.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:10.425208",
+    "url": "https://aiesec.org/opportunity/global-talent/1330033",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330033.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:10.446943",
+    "url": "https://aiesec.org/opportunity/global-talent/1330102",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330102.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:10.469796",
+    "url": "https://aiesec.org/opportunity/global-talent/1329983",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1329983.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:10.622052",
+    "url": "https://aiesec.org/opportunity/global-talent/1330036",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330036.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:10.783805",
+    "url": "https://aiesec.org/opportunity/global-talent/1329982",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1329982.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.197691",
+    "url": "https://aiesec.org/opportunity/global-talent/1329978",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329978.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.326238",
+    "url": "https://aiesec.org/opportunity/global-talent/1329918",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329918.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.379258",
+    "url": "https://aiesec.org/opportunity/global-talent/1329569",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329569.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.392940",
+    "url": "https://aiesec.org/opportunity/global-talent/1329765",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329765.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.502297",
+    "url": "https://aiesec.org/opportunity/global-talent/1329595",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329595.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.594509",
+    "url": "https://aiesec.org/opportunity/global-talent/1329079",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329079.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:11.916897",
+    "url": "https://aiesec.org/opportunity/global-talent/1328980",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1328980.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:12.208740",
+    "url": "https://aiesec.org/opportunity/global-talent/1328974",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328974.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:12.228464",
+    "url": "https://aiesec.org/opportunity/global-talent/1328856",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328856.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:12.256623",
+    "url": "https://aiesec.org/opportunity/global-talent/1328774",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328774.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:12.396566",
+    "url": "https://aiesec.org/opportunity/global-talent/1328792",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328792.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:13.024044",
+    "url": "https://aiesec.org/opportunity/global-talent/1328765",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328765.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:13.105735",
+    "url": "https://aiesec.org/opportunity/global-talent/1328761",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328761.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:13.139940",
+    "url": "https://aiesec.org/opportunity/global-talent/1328767",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328767.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:13.265835",
+    "url": "https://aiesec.org/opportunity/global-talent/1328766",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328766.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:13.752432",
+    "url": "https://aiesec.org/opportunity/global-talent/1328758",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328758.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:13.975042",
+    "url": "https://aiesec.org/opportunity/global-talent/1328760",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328760.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:14.028677",
+    "url": "https://aiesec.org/opportunity/global-talent/1328759",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328759.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:14.301565",
+    "url": "https://aiesec.org/opportunity/global-talent/1328686",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328686.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:14.571865",
+    "url": "https://aiesec.org/opportunity/global-talent/1328344",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328344.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:14.606781",
+    "url": "https://aiesec.org/opportunity/global-talent/1328762",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328762.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:14.675549",
+    "url": "https://aiesec.org/opportunity/global-talent/1327949",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1327949.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:14.825136",
+    "url": "https://aiesec.org/opportunity/global-talent/1328330",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328330.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:15.079585",
+    "url": "https://aiesec.org/opportunity/global-talent/1327775",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327775.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:15.229284",
+    "url": "https://aiesec.org/opportunity/global-talent/1327768",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327768.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:15.459580",
+    "url": "https://aiesec.org/opportunity/global-talent/1327200",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327200.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:15.566488",
+    "url": "https://aiesec.org/opportunity/global-talent/1327257",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327257.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:15.671577",
+    "url": "https://aiesec.org/opportunity/global-talent/1325859",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1325859.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:15.994670",
+    "url": "https://aiesec.org/opportunity/global-talent/1325379",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1325379.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:16.053738",
+    "url": "https://aiesec.org/opportunity/global-talent/1325464",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1325464.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:16.399957",
+    "url": "https://aiesec.org/opportunity/global-talent/1323714",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1323714.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:16.432504",
+    "url": "https://aiesec.org/opportunity/global-talent/1322886",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1322886.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:16.548739",
+    "url": "https://aiesec.org/opportunity/global-talent/1328768",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1328768.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:16.842230",
+    "url": "https://aiesec.org/opportunity/global-talent/1322239",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1322239.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:17.176253",
+    "url": "https://aiesec.org/opportunity/global-talent/1322690",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1322690.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:17.184299",
+    "url": "https://aiesec.org/opportunity/global-talent/1320868",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1320868.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:17.249119",
+    "url": "https://aiesec.org/opportunity/global-talent/1323713",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1323713.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:17.544785",
+    "url": "https://aiesec.org/opportunity/global-talent/1317005",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1317005.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:17.876510",
+    "url": "https://aiesec.org/opportunity/global-talent/1313381",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1313381.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:17.935167",
+    "url": "https://aiesec.org/opportunity/global-talent/1316865",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1316865.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:18.284183",
+    "url": "https://aiesec.org/opportunity/global-talent/1315265",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-18_Requests_1315265.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:18.397723",
+    "url": "https://aiesec.org/opportunity/global-talent/1307153",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-18_Requests_1307153.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:18.683226",
+    "url": "https://aiesec.org/opportunity/global-talent/1293818",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-18_Requests_1293818.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:22.399014",
+    "url": "https://aiesec.org/opportunity/global-talent/1317223",
+    "method": "Playwright",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-22_Playwright_1317223.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-11T07:59:24.938252",
+    "url": "https://aiesec.org/opportunity/global-talent/1311536",
+    "method": "Playwright",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-11T07-59-24_Playwright_1311536.html",
+    "items_extracted": null
   }
 ]

@@ -1,0 +1,11 @@
+[
+    {
+        "type": "heading",
+        "level": "h2",
+        "content": "Application error: a server-side exception has occurred (see the server logs for more information)."
+    },
+    {
+        "type": "paragraph",
+        "content": "Digest: 4258762124"
+    }
+]
