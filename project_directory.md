@@ -97,28 +97,44 @@
       📄 2025-12-07T17-51-21_2022_nlp4pi-1.json<br>
       📄 2025-12-10T18-09-52_1330505.json<br>
       📄 2025-12-10T18-09-57_1330447.json<br>
+      📄 2025-12-13T21-27-52_llm-injection-cyber-resilient-assistants.json<br>
+      📄 2025-12-13T21-27-53_transaction-graph-analysis-in-the-cardano-network.json<br>
       📄 7440?period=2025-2026_screenshot.png<br>
   </details>
 </details>
   📄 info.md<br>
 <details><summary>📁 pages/</summary>
+    📄 10_JSON_Table.py<br>
+    📄 11_Table.py<br>
+    📄 12_Table_New.py<br>
+    📄 13_Table_View.py<br>
+    📄 14_Select_Columns_Matrix.py<br>
+    📄 15_Select_Columns_Matrix_Multi.py<br>
+    📄 16_Data.py<br>
     📄 1_Logs_Dashboard.py<br>
     📄 2_JSON_Data_Viewer.py<br>
     📄 3_Dataset_Viewer.py<br>
     📄 4_Download.py<br>
+    📄 4_Download_Parser.py<br>
     📄 5_Data.py<br>
     📄 6_Data 2.py<br>
-    📄 7_Data 3.py<br>
+    📄 7_Parser.py<br>
+    📄 8_Parser_Bulk.py<br>
+    📄 9_JSON_Viewer.py<br>
 </details>
+  📄 parser_run_log.json<br>
 <details><summary>📁 parsers/</summary>
     📄 parse_html_to_json_v1.py<br>
     📄 parse_html_to_json_v2.py<br>
+    📄 parse_html_to_json_v3.py<br>
 </details>
   📄 project_directory.md<br>
   📄 requirements.txt<br>
+  📄 scrape_batch_report.csv<br>
   📄 scrape_log.db<br>
   📄 scrape_log.json<br>
 <details><summary>📁 scraped_html/</summary>
+    📄 .DS_Store<br>
     📄 2025-12-10T18-57-51_Requests_1330505.html<br>
     📄 2025-12-10T18-57-51_Requests_1330505.json<br>
     📄 2025-12-10T19-00-02_Requests_unknown.html<br>
@@ -127,7 +143,227 @@
     📄 2025-12-10T19-52-39_Requests_unknown.html<br>
     📄 2025-12-10T19-52-39_Requests_unknown.json<br>
     📄 2025-12-10T20-01-58_Requests_1328686.html<br>
+    📄 2025-12-10T20-01-58_Requests_1328686.html_parsed.json<br>
     📄 2025-12-10T20-01-58_Requests_1328686_parse_html_to_json_v1.json<br>
+    📄 2025-12-10T20-24-57_Requests_1330344.html<br>
+    📄 2025-12-10T20-24-57_Requests_1330344_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-09_Requests_1330113.html<br>
+    📄 2025-12-11T07-59-09_Requests_1330113_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-09_Requests_1330126.html<br>
+    📄 2025-12-11T07-59-09_Requests_1330126_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-09_Requests_1330202.html<br>
+    📄 2025-12-11T07-59-09_Requests_1330202_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-09_Requests_1330287.html<br>
+    📄 2025-12-11T07-59-09_Requests_1330287_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-09_Requests_1330447.html<br>
+    📄 2025-12-11T07-59-09_Requests_1330447_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-10_Requests_1329982.html<br>
+    📄 2025-12-11T07-59-10_Requests_1329982_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-10_Requests_1329983.html<br>
+    📄 2025-12-11T07-59-10_Requests_1329983_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-10_Requests_1330033.html<br>
+    📄 2025-12-11T07-59-10_Requests_1330033_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-10_Requests_1330036.html<br>
+    📄 2025-12-11T07-59-10_Requests_1330036_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-10_Requests_1330102.html<br>
+    📄 2025-12-11T07-59-10_Requests_1330102_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-10_Requests_1330505.html<br>
+    📄 2025-12-11T07-59-10_Requests_1330505_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1328980.html<br>
+    📄 2025-12-11T07-59-11_Requests_1328980_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1329079.html<br>
+    📄 2025-12-11T07-59-11_Requests_1329079_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1329569.html<br>
+    📄 2025-12-11T07-59-11_Requests_1329569_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1329595.html<br>
+    📄 2025-12-11T07-59-11_Requests_1329595_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1329765.html<br>
+    📄 2025-12-11T07-59-11_Requests_1329765_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1329918.html<br>
+    📄 2025-12-11T07-59-11_Requests_1329918_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-11_Requests_1329978.html<br>
+    📄 2025-12-11T07-59-11_Requests_1329978_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-12_Requests_1328774.html<br>
+    📄 2025-12-11T07-59-12_Requests_1328774_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-12_Requests_1328792.html<br>
+    📄 2025-12-11T07-59-12_Requests_1328792_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-12_Requests_1328856.html<br>
+    📄 2025-12-11T07-59-12_Requests_1328856_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-12_Requests_1328974.html<br>
+    📄 2025-12-11T07-59-12_Requests_1328974_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-13_Requests_1328758.html<br>
+    📄 2025-12-11T07-59-13_Requests_1328758_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-13_Requests_1328760.html<br>
+    📄 2025-12-11T07-59-13_Requests_1328760_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-13_Requests_1328761.html<br>
+    📄 2025-12-11T07-59-13_Requests_1328761_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-13_Requests_1328765.html<br>
+    📄 2025-12-11T07-59-13_Requests_1328765_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-13_Requests_1328766.html<br>
+    📄 2025-12-11T07-59-13_Requests_1328766_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-13_Requests_1328767.html<br>
+    📄 2025-12-11T07-59-13_Requests_1328767_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-14_Requests_1327949.html<br>
+    📄 2025-12-11T07-59-14_Requests_1327949_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-14_Requests_1328330.html<br>
+    📄 2025-12-11T07-59-14_Requests_1328330_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-14_Requests_1328344.html<br>
+    📄 2025-12-11T07-59-14_Requests_1328344_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-14_Requests_1328686.html<br>
+    📄 2025-12-11T07-59-14_Requests_1328686_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-14_Requests_1328759.html<br>
+    📄 2025-12-11T07-59-14_Requests_1328759_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-14_Requests_1328762.html<br>
+    📄 2025-12-11T07-59-14_Requests_1328762_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-15_Requests_1325379.html<br>
+    📄 2025-12-11T07-59-15_Requests_1325379_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-15_Requests_1325859.html<br>
+    📄 2025-12-11T07-59-15_Requests_1325859_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-15_Requests_1327200.html<br>
+    📄 2025-12-11T07-59-15_Requests_1327200_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-15_Requests_1327257.html<br>
+    📄 2025-12-11T07-59-15_Requests_1327257_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-15_Requests_1327768.html<br>
+    📄 2025-12-11T07-59-15_Requests_1327768_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-15_Requests_1327775.html<br>
+    📄 2025-12-11T07-59-15_Requests_1327775_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-16_Requests_1322239.html<br>
+    📄 2025-12-11T07-59-16_Requests_1322239_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-16_Requests_1322886.html<br>
+    📄 2025-12-11T07-59-16_Requests_1322886_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-16_Requests_1323714.html<br>
+    📄 2025-12-11T07-59-16_Requests_1323714_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-16_Requests_1325464.html<br>
+    📄 2025-12-11T07-59-16_Requests_1325464_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-16_Requests_1328768.html<br>
+    📄 2025-12-11T07-59-16_Requests_1328768_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-17_Requests_1313381.html<br>
+    📄 2025-12-11T07-59-17_Requests_1313381_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-17_Requests_1316865.html<br>
+    📄 2025-12-11T07-59-17_Requests_1316865_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-17_Requests_1317005.html<br>
+    📄 2025-12-11T07-59-17_Requests_1317005_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-17_Requests_1320868.html<br>
+    📄 2025-12-11T07-59-17_Requests_1320868_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-17_Requests_1322690.html<br>
+    📄 2025-12-11T07-59-17_Requests_1322690_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-17_Requests_1323713.html<br>
+    📄 2025-12-11T07-59-17_Requests_1323713_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-18_Requests_1293818.html<br>
+    📄 2025-12-11T07-59-18_Requests_1293818_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-18_Requests_1307153.html<br>
+    📄 2025-12-11T07-59-18_Requests_1307153_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-18_Requests_1315265.html<br>
+    📄 2025-12-11T07-59-18_Requests_1315265_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-22_Playwright_1317223.html<br>
+    📄 2025-12-11T07-59-22_Playwright_1317223_parse_html_to_json_v1.json<br>
+    📄 2025-12-11T07-59-24_Playwright_1311536.html<br>
+    📄 2025-12-11T07-59-24_Playwright_1311536_parse_html_to_json_v1.json<br>
+    📄 2025-12-13T21-27-04_Requests_unknown.html<br>
+    📄 2025-12-13T21-27-04_Requests_unknown_parse_html_to_json_v3.json<br>
+    📄 2025-12-13T21-27-40_Requests_unknown.html<br>
+    📄 2025-12-13T21-27-40_Requests_unknown_parsed_v3.json<br>
+    📄 2025-12-13T22-32-51_Requests_unknown.html<br>
+    📄 2025-12-13T22-32-51_Requests_unknown_parse_html_to_json_v3.json<br>
+    📄 2025-12-13T22-34-56_Requests_unknown.html<br>
+    📄 2025-12-13T22-34-56_Requests_unknown_parse_html_to_json_v3.json<br>
+    📄 2025-12-13T22-34-57_Requests_unknown.html<br>
+    📄 2025-12-13T22-34-57_Requests_unknown_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-17-22_Requests_unknown.html<br>
+    📄 2025-12-14T06-17-22_Requests_unknown_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-17-23_Requests_unknown.html<br>
+    📄 2025-12-14T06-17-23_Requests_unknown_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-22_Requests_unknown_41dd43c0.html<br>
+    📄 2025-12-14T06-39-22_Requests_unknown_41dd43c0_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-22_Requests_unknown_b64424dc.html<br>
+    📄 2025-12-14T06-39-22_Requests_unknown_b64424dc_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_17d54be1.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_17d54be1_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_1a025c48.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_1a025c48_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_39ca5790.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_39ca5790_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_49347faf.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_49347faf_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_7f29dfc4.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_7f29dfc4_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_95683a96.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_95683a96_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_a62d910d.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_a62d910d_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_c791dbbb.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_c791dbbb_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_df0c9c7e.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_df0c9c7e_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_e5b7014d.html<br>
+    📄 2025-12-14T06-39-23_Requests_unknown_e5b7014d_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_0b3008ba.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_0b3008ba_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_27890658.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_27890658_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_3c01c991.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_3c01c991_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_863918b7.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_863918b7_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_aefc990a.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_aefc990a_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_c65a46a4.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_c65a46a4_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_e0b9faba.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_e0b9faba_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_e8e30c8d.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_e8e30c8d_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f11a46ed.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f11a46ed_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f2b11331.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f2b11331_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f5d2abbd.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f5d2abbd_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f71d5a26.html<br>
+    📄 2025-12-14T06-39-24_Requests_unknown_f71d5a26_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_0043e024.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_0043e024_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_0f04da39.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_0f04da39_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_1d49d9ff.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_1d49d9ff_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_363ad85b.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_363ad85b_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_36fc7343.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_36fc7343_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_38cb1b09.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_38cb1b09_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_7259b1a1.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_7259b1a1_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_8f30f4a4.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_8f30f4a4_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_c45ff6ee.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_c45ff6ee_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_e8408a0f.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_e8408a0f_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_e917fee9.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_e917fee9_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_efc786ed.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_efc786ed_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_fbc7fdfd.html<br>
+    📄 2025-12-14T06-39-25_Requests_unknown_fbc7fdfd_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-26_Requests_unknown_62de0895.html<br>
+    📄 2025-12-14T06-39-26_Requests_unknown_62de0895_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T06-39-26_Requests_unknown_dbcc3522.html<br>
+    📄 2025-12-14T06-39-26_Requests_unknown_dbcc3522_parse_html_to_json_v3.json<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_1834685a.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_488f6442.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_4cef168b.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_7b209840.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_81bf4141.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_9a25866a.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_a2f4118b.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_ce25e064.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_dbaab09a.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_ea76265a.html<br>
+    📄 2025-12-14T12-46-54_Requests_unknown_ec7a9090.html<br>
+    📄 2025-12-14T12-47-07_Requests_unknown.html<br>
+    📄 2025-12-14T12-47-08_Requests_unknown.html<br>
 </details>
 <details><summary>📁 services/</summary>
     📄 dataset_service.py<br>

@@ -542,5 +542,445 @@
         "html_file_path": "scraped_html/2025-12-11T07-59-13_Requests_1328766.html",
         "output_json_path": "scraped_html/2025-12-11T07-59-13_Requests_1328766_parse_html_to_json_v1.json",
         "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:26:40.473854",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T21-27-04_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T21-27-04_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:32:04.122251",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T21-27-04_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T21-27-04_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:33:24.153825",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T22-32-51_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T22-32-51_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:37:15.108524",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T22-34-57_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T22-34-57_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:37:15.140361",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T22-34-56_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T22-34-56_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:37:15.170537",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T22-32-51_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T22-32-51_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:37:15.192779",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T21-27-40_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T21-27-40_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-13T22:37:15.221332",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-13T21-27-04_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-13T21-27-04_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:17:54.198007",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-17-22_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-14T06-17-22_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:17:54.225872",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-17-23_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-14T06-17-23_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:49:32.277185",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0043e024.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0043e024_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:49:32.309762",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_1a025c48.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_1a025c48_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:49:32.333427",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f71d5a26.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f71d5a26_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:49:32.355716",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0f04da39.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0f04da39_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:01.861571",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0043e024.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0043e024_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:01.894377",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_1a025c48.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_1a025c48_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:01.916783",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f71d5a26.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f71d5a26_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:01.938705",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_c65a46a4.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_c65a46a4_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:01.965047",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_95683a96.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_95683a96_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:01.987260",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-22_Requests_unknown_b64424dc.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-22_Requests_unknown_b64424dc_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.008547",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f5d2abbd.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f5d2abbd_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.034427",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_0b3008ba.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_0b3008ba_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.058055",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_e8408a0f.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_e8408a0f_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.079947",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_17d54be1.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_17d54be1_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.104053",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_7259b1a1.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_7259b1a1_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.127657",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f2b11331.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f2b11331_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.151174",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-17-22_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-14T06-17-22_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.175606",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_c791dbbb.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_c791dbbb_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.197951",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_363ad85b.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_363ad85b_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.220376",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-26_Requests_unknown_dbcc3522.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-26_Requests_unknown_dbcc3522_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.242452",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_863918b7.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_863918b7_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.266244",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_8f30f4a4.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_8f30f4a4_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.288189",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_c45ff6ee.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_c45ff6ee_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.311744",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_39ca5790.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_39ca5790_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.333963",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_27890658.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_27890658_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.356570",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-22_Requests_unknown_41dd43c0.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-22_Requests_unknown_41dd43c0_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.379834",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_efc786ed.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_efc786ed_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.404191",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f11a46ed.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f11a46ed_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.426939",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_fbc7fdfd.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_fbc7fdfd_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.449847",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_49347faf.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_49347faf_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.473154",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_38cb1b09.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_38cb1b09_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.539707",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_7f29dfc4.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_7f29dfc4_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.564545",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_aefc990a.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_aefc990a_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.588142",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_3c01c991.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_3c01c991_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.612050",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_e917fee9.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_e917fee9_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.636507",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_a62d910d.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_a62d910d_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.660260",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_e8e30c8d.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_e8e30c8d_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.684389",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_df0c9c7e.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_df0c9c7e_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.706172",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_e0b9faba.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_e0b9faba_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.728104",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_1d49d9ff.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_1d49d9ff_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.754810",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_e5b7014d.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_e5b7014d_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.776604",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_36fc7343.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_36fc7343_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.799946",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-17-23_Requests_unknown.html",
+        "output_json_path": "scraped_html/2025-12-14T06-17-23_Requests_unknown_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.822258",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-26_Requests_unknown_62de0895.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-26_Requests_unknown_62de0895_parse_html_to_json_v3.json",
+        "items_extracted": null
+    },
+    {
+        "timestamp": "2025-12-14T06:51:02.846445",
+        "parser_name": "parse_html_to_json_v3",
+        "status": "success",
+        "html_file_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0f04da39.html",
+        "output_json_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0f04da39_parse_html_to_json_v3.json",
+        "items_extracted": null
     }
 ]

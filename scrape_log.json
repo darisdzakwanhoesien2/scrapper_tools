@@ -1,499 +1,426 @@
 [
   {
-    "url": "https://aiesec.org/opportunity/global-talent/1330505",
-    "method": "Requests",
-    "timestamp": "2025-12-10T18:57:51.813579",
-    "html_path": "scraped_html/2025-12-10T18-57-51_Requests_1330505.html",
-    "html_hash": "10f907dc2213b44290a8ebb04bc3aa7b738afb1176450a63fb2b3c30530a760d"
-  },
-  {
-    "url": "https://opas.peppi.oulu.fi/en/course/521466S/1542?period=2024-2025",
-    "method": "Requests",
-    "timestamp": "2025-12-10T19:00:02.646299",
-    "html_path": "scraped_html/2025-12-10T19-00-02_Requests_unknown.html",
-    "html_hash": "3ee616e995961311e0225338e958eb02570732993d528bfc958df7bac95389e1"
-  },
-  {
-    "url": "https://aiesec.org/opportunity/global-talent/1329997",
-    "method": "Requests",
-    "timestamp": "2025-12-10T19:17:54.552896",
-    "html_path": "scraped_html/2025-12-10T19-17-54_Requests_1329997.html",
-    "html_hash": "0bcd45d028b025df5aba712476792d33b76e122c47a8673b809fdab9a80f381b"
-  },
-  {
-    "url": "https://erasmus-plus.ec.europa.eu/projects/search/details/101238940",
-    "method": "Playwright",
-    "timestamp": "2025-12-10T19:51:17.888276",
-    "html_path": "scraped_html/2025-12-10T19-51-17_Playwright_unknown.html",
-    "html_hash": "a36b4a7030d49c4b1a526a58ae02667fd2dc6f3a185ebf7b26d9fba1d2abe85a"
-  },
-  {
-    "url": "https://www.harvard.edu/programs/",
-    "method": "Requests",
-    "timestamp": "2025-12-10T19:52:39.250362",
-    "html_path": "scraped_html/2025-12-10T19-52-39_Requests_unknown.html",
-    "html_hash": "890540c54bc15b2dcc6bce7cd872bc12a7d31b0285a59b1be5b99f12baa1f240"
-  },
-  {
-    "url": "https://aiesec.org/opportunity/global-talent/1328686",
-    "method": "Requests",
-    "timestamp": "2025-12-10T20:01:58.427878",
-    "html_path": "scraped_html/2025-12-10T20-01-58_Requests_1328686.html",
-    "html_hash": "ee9c0d14f39c732345c4ea31414e5347d7bdbb03944ca1e40508b354bc3f32ee"
-  },
-  {
-    "url": "https://aiesec.org/opportunity/global-talent/1330344",
-    "method": "Requests",
-    "timestamp": "2025-12-10T20:24:57.116073",
-    "html_path": "scraped_html/2025-12-10T20-24-57_Requests_1330344.html",
-    "html_hash": "00c361f79e71d03670d412460a5bb70188f2922a555ef8a9fe3da0df34eb55de"
-  },
-  {
-    "timestamp": "2025-12-11T07:59:09.594464",
-    "url": "https://aiesec.org/opportunity/global-talent/1330287",
+    "timestamp": "2025-12-14T06:17:23.608816",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/next-generation-3d-understanding",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330287.html",
+    "html_path": "scraped_html/2025-12-14T06-17-23_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:09.596180",
-    "url": "https://aiesec.org/opportunity/global-talent/1330447",
+    "timestamp": "2025-12-14T06:39:23.000144",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/topics-in-machine-learning-and-optimization",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330447.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-22_Requests_unknown_41dd43c0.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:09.617243",
-    "url": "https://aiesec.org/opportunity/global-talent/1330202",
+    "timestamp": "2025-12-14T06:39:23.000773",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/computer-graphics-computer-vision-and-visualization",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330202.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-22_Requests_unknown_b64424dc.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:09.707556",
-    "url": "https://aiesec.org/opportunity/global-talent/1330126",
+    "timestamp": "2025-12-14T06:39:23.049115",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/machine-learning-for-graphs",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330126.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_39ca5790.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:09.847988",
-    "url": "https://aiesec.org/opportunity/global-talent/1330113",
+    "timestamp": "2025-12-14T06:39:23.086135",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/algorithmic-information-theory-for-machine-intelligence",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-09_Requests_1330113.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_e5b7014d.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:10.169476",
-    "url": "https://aiesec.org/opportunity/global-talent/1330505",
+    "timestamp": "2025-12-14T06:39:23.114077",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/machine-learning-for-graphs",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330505.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_c791dbbb.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:10.425208",
-    "url": "https://aiesec.org/opportunity/global-talent/1330033",
+    "timestamp": "2025-12-14T06:39:23.166902",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/nonlinear-partial-differential-models",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330033.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_a62d910d.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:10.446943",
-    "url": "https://aiesec.org/opportunity/global-talent/1330102",
+    "timestamp": "2025-12-14T06:39:23.641019",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/federated-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330102.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_1a025c48.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:10.469796",
-    "url": "https://aiesec.org/opportunity/global-talent/1329983",
+    "timestamp": "2025-12-14T06:39:23.657460",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/towards-a-principled-understanding-of-deep-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1329983.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_95683a96.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:10.622052",
-    "url": "https://aiesec.org/opportunity/global-talent/1330036",
+    "timestamp": "2025-12-14T06:39:23.690161",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/gradient-compression-for-distributed-training-of-machine-learning-models",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1330036.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_49347faf.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:10.783805",
-    "url": "https://aiesec.org/opportunity/global-talent/1329982",
+    "timestamp": "2025-12-14T06:39:23.707763",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/imagination-inspired-vision",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-10_Requests_1329982.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_17d54be1.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.197691",
-    "url": "https://aiesec.org/opportunity/global-talent/1329978",
+    "timestamp": "2025-12-14T06:39:23.763925",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/continual-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329978.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_df0c9c7e.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.326238",
-    "url": "https://aiesec.org/opportunity/global-talent/1329918",
+    "timestamp": "2025-12-14T06:39:23.845331",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/statistical-models-based-on-stochastic-partial-differential-equations",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329918.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-23_Requests_unknown_7f29dfc4.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.379258",
-    "url": "https://aiesec.org/opportunity/global-talent/1329569",
+    "timestamp": "2025-12-14T06:39:24.061377",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/causal-and-fair-machine-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329569.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_863918b7.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.392940",
-    "url": "https://aiesec.org/opportunity/global-talent/1329765",
+    "timestamp": "2025-12-14T06:39:24.190959",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/foundations-of-private-and-fair-statistics",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329765.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f2b11331.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.502297",
-    "url": "https://aiesec.org/opportunity/global-talent/1329595",
+    "timestamp": "2025-12-14T06:39:24.294988",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/robust-differentially-private-machine-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329595.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_c65a46a4.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.594509",
-    "url": "https://aiesec.org/opportunity/global-talent/1329079",
+    "timestamp": "2025-12-14T06:39:24.355246",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/numerical-approximation-of-partial-differential-equations",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1329079.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_3c01c991.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:11.916897",
-    "url": "https://aiesec.org/opportunity/global-talent/1328980",
+    "timestamp": "2025-12-14T06:39:24.415669",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/machine-learning-and-dynamical-systems-",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-11_Requests_1328980.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_e8e30c8d.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:12.208740",
-    "url": "https://aiesec.org/opportunity/global-talent/1328974",
+    "timestamp": "2025-12-14T06:39:24.475176",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/machine-learning-techniques-for-divergence-free-field-reconstruction",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328974.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_0b3008ba.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:12.228464",
-    "url": "https://aiesec.org/opportunity/global-talent/1328856",
+    "timestamp": "2025-12-14T06:39:24.545194",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/efficient-pricing-of-high-dimensional-(multi-assets)-european-options",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328856.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_aefc990a.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:12.256623",
-    "url": "https://aiesec.org/opportunity/global-talent/1328774",
+    "timestamp": "2025-12-14T06:39:24.545834",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/cyber-secure-integration-of-renewable-energy-sources",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328774.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f71d5a26.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:12.396566",
-    "url": "https://aiesec.org/opportunity/global-talent/1328792",
+    "timestamp": "2025-12-14T06:39:24.840541",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/egocentric-video-understanding",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-12_Requests_1328792.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f11a46ed.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:13.024044",
-    "url": "https://aiesec.org/opportunity/global-talent/1328765",
+    "timestamp": "2025-12-14T06:39:24.892423",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/next-generation-continual-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328765.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_e0b9faba.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:13.105735",
-    "url": "https://aiesec.org/opportunity/global-talent/1328761",
+    "timestamp": "2025-12-14T06:39:24.945532",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/next-generation-3d-understanding",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328761.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_f5d2abbd.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:13.139940",
-    "url": "https://aiesec.org/opportunity/global-talent/1328767",
+    "timestamp": "2025-12-14T06:39:24.976096",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/deep-learning-for-visual-computing-(computer-vision-machine-learning-graphics)",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328767.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-24_Requests_unknown_27890658.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:13.265835",
-    "url": "https://aiesec.org/opportunity/global-talent/1328766",
+    "timestamp": "2025-12-14T06:39:25.024212",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/graph-neural-networks-for-science-and-engineering",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328766.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_fbc7fdfd.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:13.752432",
-    "url": "https://aiesec.org/opportunity/global-talent/1328758",
+    "timestamp": "2025-12-14T06:39:25.212473",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/scaling-graph-neural-networks-to-1000s-of-gpus-",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328758.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_1d49d9ff.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:13.975042",
-    "url": "https://aiesec.org/opportunity/global-talent/1328760",
+    "timestamp": "2025-12-14T06:39:25.218201",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/learning-to-cooperate-in-multi-robot-task-allocation",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-13_Requests_1328760.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0f04da39.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:14.028677",
-    "url": "https://aiesec.org/opportunity/global-talent/1328759",
+    "timestamp": "2025-12-14T06:39:25.266824",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/statistical-inference-for-high-dimensional-models-with-applications-to-imaging-genetics",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328759.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_363ad85b.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:14.301565",
-    "url": "https://aiesec.org/opportunity/global-talent/1328686",
+    "timestamp": "2025-12-14T06:39:25.364161",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/planning-and-operation-of-energy-systems-via-risk-aware-optimization",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328686.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_c45ff6ee.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:14.571865",
-    "url": "https://aiesec.org/opportunity/global-talent/1328344",
+    "timestamp": "2025-12-14T06:39:25.387204",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/leveraging-non-terrestrial-platforms",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328344.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_36fc7343.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:14.606781",
-    "url": "https://aiesec.org/opportunity/global-talent/1328762",
+    "timestamp": "2025-12-14T06:39:25.415293",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/optimal-strategies-for-resource-task-network-problems",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328762.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_38cb1b09.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:14.675549",
-    "url": "https://aiesec.org/opportunity/global-talent/1327949",
+    "timestamp": "2025-12-14T06:39:25.608293",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/conversation-3d-visualization-on-the-web",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1327949.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_efc786ed.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:14.825136",
-    "url": "https://aiesec.org/opportunity/global-talent/1328330",
+    "timestamp": "2025-12-14T06:39:25.712373",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/toward-an-ai-powered-superfast-autonomous-racing-car",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-14_Requests_1328330.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_7259b1a1.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:15.079585",
-    "url": "https://aiesec.org/opportunity/global-talent/1327775",
+    "timestamp": "2025-12-14T06:39:25.751577",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/scalable-bayesian-inference-for-structural-equation-models",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327775.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_8f30f4a4.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:15.229284",
-    "url": "https://aiesec.org/opportunity/global-talent/1327768",
+    "timestamp": "2025-12-14T06:39:25.839842",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/efficient-quantization-of-large-language-models",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327768.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_0043e024.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:15.459580",
-    "url": "https://aiesec.org/opportunity/global-talent/1327200",
+    "timestamp": "2025-12-14T06:39:25.883758",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/transaction-graph-analysis-in-the-cardano-network",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327200.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_e917fee9.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:15.566488",
-    "url": "https://aiesec.org/opportunity/global-talent/1327257",
+    "timestamp": "2025-12-14T06:39:25.956578",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/llm-injection-cyber-resilient-assistants",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1327257.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-25_Requests_unknown_e8408a0f.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:15.671577",
-    "url": "https://aiesec.org/opportunity/global-talent/1325859",
+    "timestamp": "2025-12-14T06:39:26.084736",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/statistical-methods-for-generative-modeling",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1325859.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-26_Requests_unknown_62de0895.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:15.994670",
-    "url": "https://aiesec.org/opportunity/global-talent/1325379",
+    "timestamp": "2025-12-14T06:39:26.174454",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/harnessing-data-science-to-enhance-the-sustainability-of-red-sea-fisheries-and-aquatic-food-systems",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-15_Requests_1325379.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T06-39-26_Requests_unknown_dbcc3522.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:16.053738",
-    "url": "https://aiesec.org/opportunity/global-talent/1325464",
+    "timestamp": "2025-12-14T12:46:54.152665",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/statistical-inference-for-high-dimensional-models-with-applications-to-imaging-genetics",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1325464.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_1834685a.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:16.399957",
-    "url": "https://aiesec.org/opportunity/global-talent/1323714",
+    "timestamp": "2025-12-14T12:46:54.153639",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/optimal-strategies-for-resource-task-network-problems",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1323714.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_81bf4141.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:16.432504",
-    "url": "https://aiesec.org/opportunity/global-talent/1322886",
+    "timestamp": "2025-12-14T12:46:54.213017",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/deep-learning-for-visual-computing-(computer-vision-machine-learning-graphics)",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1322886.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_7b209840.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:16.548739",
-    "url": "https://aiesec.org/opportunity/global-talent/1328768",
+    "timestamp": "2025-12-14T12:46:54.357308",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/planning-and-operation-of-energy-systems-via-risk-aware-optimization",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1328768.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_9a25866a.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:16.842230",
-    "url": "https://aiesec.org/opportunity/global-talent/1322239",
+    "timestamp": "2025-12-14T12:46:54.457152",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/next-generation-continual-learning",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-16_Requests_1322239.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_dbaab09a.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:17.176253",
-    "url": "https://aiesec.org/opportunity/global-talent/1322690",
+    "timestamp": "2025-12-14T12:46:54.458516",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/learning-to-cooperate-in-multi-robot-task-allocation",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1322690.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_ec7a9090.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:17.184299",
-    "url": "https://aiesec.org/opportunity/global-talent/1320868",
+    "timestamp": "2025-12-14T12:46:54.579870",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/scaling-graph-neural-networks-to-1000s-of-gpus-",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1320868.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_ce25e064.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:17.249119",
-    "url": "https://aiesec.org/opportunity/global-talent/1323713",
+    "timestamp": "2025-12-14T12:46:54.629360",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/graph-neural-networks-for-science-and-engineering",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1323713.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_4cef168b.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:17.544785",
-    "url": "https://aiesec.org/opportunity/global-talent/1317005",
+    "timestamp": "2025-12-14T12:46:54.744590",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/efficient-quantization-of-large-language-models",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1317005.html",
-    "items_extracted": null
+    "html_path": "scraped_html/2025-12-14T12-46-54_Requests_unknown_488f6442.html"
   },
   {
-    "timestamp": "2025-12-11T07:59:17.876510",
-    "url": "https://aiesec.org/opportunity/global-talent/1313381",
+    "timestamp": "2025-12-14T12:47:07.813342",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/planning-and-operation-of-energy-systems-via-risk-aware-optimization",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1313381.html",
+    "html_path": "scraped_html/2025-12-14T12-47-07_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:17.935167",
-    "url": "https://aiesec.org/opportunity/global-talent/1316865",
+    "timestamp": "2025-12-14T12:47:07.818111",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/leveraging-non-terrestrial-platforms",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-17_Requests_1316865.html",
+    "html_path": "scraped_html/2025-12-14T12-47-07_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:18.284183",
-    "url": "https://aiesec.org/opportunity/global-talent/1315265",
+    "timestamp": "2025-12-14T12:47:07.834712",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/statistical-inference-for-high-dimensional-models-with-applications-to-imaging-genetics",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-18_Requests_1315265.html",
+    "html_path": "scraped_html/2025-12-14T12-47-07_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:18.397723",
-    "url": "https://aiesec.org/opportunity/global-talent/1307153",
+    "timestamp": "2025-12-14T12:47:07.839142",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/deep-learning-for-visual-computing-(computer-vision-machine-learning-graphics)",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-18_Requests_1307153.html",
+    "html_path": "scraped_html/2025-12-14T12-47-07_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:18.683226",
-    "url": "https://aiesec.org/opportunity/global-talent/1293818",
+    "timestamp": "2025-12-14T12:47:08.032818",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/learning-to-cooperate-in-multi-robot-task-allocation",
     "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-18_Requests_1293818.html",
+    "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:22.399014",
-    "url": "https://aiesec.org/opportunity/global-talent/1317223",
-    "method": "Playwright",
+    "timestamp": "2025-12-14T12:47:08.305537",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/egocentric-video-understanding",
+    "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-22_Playwright_1317223.html",
+    "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
     "items_extracted": null
   },
   {
-    "timestamp": "2025-12-11T07:59:24.938252",
-    "url": "https://aiesec.org/opportunity/global-talent/1311536",
-    "method": "Playwright",
+    "timestamp": "2025-12-14T12:47:08.312054",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/scaling-graph-neural-networks-to-1000s-of-gpus-",
+    "method": "Requests",
     "status": "success",
-    "html_path": "scraped_html/2025-12-11T07-59-24_Playwright_1311536.html",
+    "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-14T12:47:08.314990",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/next-generation-continual-learning",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-14T12:47:08.316917",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/graph-neural-networks-for-science-and-engineering",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-14T12:47:08.325528",
+    "url": "https://admissions.kaust.edu.sa/internship/search/project/efficient-quantization-of-large-language-models",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
     "items_extracted": null
   }
 ]

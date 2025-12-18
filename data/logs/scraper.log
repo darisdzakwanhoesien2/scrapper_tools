@@ -132,3 +132,5 @@
 2025-12-10 20:09:53,270 - INFO - Get LATEST chromedriver version for google-chrome
 2025-12-10 20:09:53,339 - INFO - Driver [/Users/darisdzakwanhoesien/.wdm/drivers/chromedriver/mac64/143.0.7499.40/chromedriver-mac-arm64/chromedriver] found in cache
 2025-12-10 20:09:57,936 - INFO - SUCCESS | https://aiesec.org/opportunity/global-talent/1330447 → data/raw/2025-12-10T18-09-57_1330447.json
+2025-12-13 23:27:52,988 - INFO - SUCCESS | https://admissions.kaust.edu.sa/internship/search/project/llm-injection-cyber-resilient-assistants → data/raw/2025-12-13T21-27-52_llm-injection-cyber-resilient-assistants.json
+2025-12-13 23:27:53,289 - INFO - SUCCESS | https://admissions.kaust.edu.sa/internship/search/project/transaction-graph-analysis-in-the-cardano-network → data/raw/2025-12-13T21-27-53_transaction-graph-analysis-in-the-cardano-network.json
