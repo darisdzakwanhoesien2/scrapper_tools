@@ -422,5 +422,69 @@
     "status": "success",
     "html_path": "scraped_html/2025-12-14T12-47-08_Requests_unknown.html",
     "items_extracted": null
+  },
+  {
+    "batch_id": "batch_001",
+    "timestamp": "2025-12-20T16:41:16.708214",
+    "url": "https://study.ed.ac.uk/programmes/undergraduate/656-anatomy-and-development",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T16-41-16_batch_001_Requests_unknown_0c6b4ff1.html"
+  },
+  {
+    "batch_id": "batch_001",
+    "timestamp": "2025-12-20T16:41:16.711800",
+    "url": "https://study.ed.ac.uk/programmes/undergraduate/655-acoustics-and-music-technology",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T16-41-16_batch_001_Requests_unknown_7c0d33f5.html"
+  },
+  {
+    "batch_id": "batch_001",
+    "timestamp": "2025-12-20T16:41:16.714139",
+    "url": "https://study.ed.ac.uk/programmes/undergraduate/189-accounting-and-business",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T16-41-16_batch_001_Requests_unknown_399555c8.html"
+  },
+  {
+    "batch_id": "batch_002",
+    "timestamp": "2025-12-20T19:45:01.512456",
+    "url": "https://bigfuture.collegeboard.org/colleges/avery-james-college",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T19-45-01_batch_002_Requests_unknown_8276d999.html"
+  },
+  {
+    "timestamp": "2025-12-20T23:20:18.318135",
+    "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-business-administration-accounting",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T23-20-18_Requests_unknown.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-20T23:44:47.734419",
+    "url": "https://opintopolku.fi/konfo/en/koulutus/1.2.246.562.13.00000000000000002779",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T23-44-47_Requests_unknown.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-20T23:46:04.177062",
+    "url": "https://opintopolku.fi/konfo/en/toteutus/1.2.246.562.17.00000000000000008138",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-20T23-46-04_Requests_unknown.html",
+    "items_extracted": null
+  },
+  {
+    "timestamp": "2025-12-21T13:53:36.408242",
+    "url": "https://www.ul.ie/gps/courses/accounting-msc",
+    "method": "Requests",
+    "status": "success",
+    "html_path": "scraped_html/2025-12-21T13-53-36_Requests_unknown.html",
+    "items_extracted": null
   }
 ]

@@ -1,12 +1,2 @@
 timestamp,url,method,status,html_path,items_extracted
-2025-12-14T12:47:07.812871,https://admissions.kaust.edu.sa/internship/search/project/optimal-strategies-for-resource-task-network-problems,Requests,success,scraped_html/2025-12-14T12-47-07_Requests_unknown.html,
-2025-12-14T12:47:07.813342,https://admissions.kaust.edu.sa/internship/search/project/planning-and-operation-of-energy-systems-via-risk-aware-optimization,Requests,success,scraped_html/2025-12-14T12-47-07_Requests_unknown.html,
-2025-12-14T12:47:07.818111,https://admissions.kaust.edu.sa/internship/search/project/leveraging-non-terrestrial-platforms,Requests,success,scraped_html/2025-12-14T12-47-07_Requests_unknown.html,
-2025-12-14T12:47:07.834712,https://admissions.kaust.edu.sa/internship/search/project/statistical-inference-for-high-dimensional-models-with-applications-to-imaging-genetics,Requests,success,scraped_html/2025-12-14T12-47-07_Requests_unknown.html,
-2025-12-14T12:47:07.839142,https://admissions.kaust.edu.sa/internship/search/project/deep-learning-for-visual-computing-(computer-vision-machine-learning-graphics),Requests,success,scraped_html/2025-12-14T12-47-07_Requests_unknown.html,
-2025-12-14T12:47:08.032818,https://admissions.kaust.edu.sa/internship/search/project/learning-to-cooperate-in-multi-robot-task-allocation,Requests,success,scraped_html/2025-12-14T12-47-08_Requests_unknown.html,
-2025-12-14T12:47:08.305537,https://admissions.kaust.edu.sa/internship/search/project/egocentric-video-understanding,Requests,success,scraped_html/2025-12-14T12-47-08_Requests_unknown.html,
-2025-12-14T12:47:08.312054,https://admissions.kaust.edu.sa/internship/search/project/scaling-graph-neural-networks-to-1000s-of-gpus-,Requests,success,scraped_html/2025-12-14T12-47-08_Requests_unknown.html,
-2025-12-14T12:47:08.314990,https://admissions.kaust.edu.sa/internship/search/project/next-generation-continual-learning,Requests,success,scraped_html/2025-12-14T12-47-08_Requests_unknown.html,
-2025-12-14T12:47:08.316917,https://admissions.kaust.edu.sa/internship/search/project/graph-neural-networks-for-science-and-engineering,Requests,success,scraped_html/2025-12-14T12-47-08_Requests_unknown.html,
-2025-12-14T12:47:08.325528,https://admissions.kaust.edu.sa/internship/search/project/efficient-quantization-of-large-language-models,Requests,success,scraped_html/2025-12-14T12-47-08_Requests_unknown.html,
+2025-12-21T13:53:36.408242,https://www.ul.ie/gps/courses/accounting-msc,Requests,success,scraped_html/2025-12-21T13-53-36_Requests_unknown.html,

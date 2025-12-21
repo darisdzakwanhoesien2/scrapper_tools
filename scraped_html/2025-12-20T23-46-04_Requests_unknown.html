@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fi" translate="no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/konfo/manifest.json" />
+    <meta name="msapplication-TileColor" content="#378703" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#378703" />
+    <script>
+      document.addEventListener('DOMContentLoaded', runMatomoTrackingScriptOnUserConsent);
+      function runMatomoTrackingScriptOnUserConsent() {
+        let siteDomain = location.hostname;
+        let enabledStatisticsCookie = document.cookie
+            .split(';')
+            .some((cookieStr) =>
+              cookieStr.includes('oph-statistic-cookies-accepted=true'));
+
+          // NOTE: Do not run any analytics on local dev / playwright runs
+          if (siteDomain !== 'localhost') {
+            var matomoSiteId;
+            switch (siteDomain) {
+              case 'opintopolku.fi':
+                matomoSiteId = 2;
+                break;
+              case 'testiopintopolku.fi':
+                matomoSiteId = 1;
+                break;
+              default:
+                matomoSiteId = 35; // Kehitys
+            }
+            var _paq = (window._paq = window._paq || []);
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            if (enabledStatisticsCookie) {
+              _paq.push(["setDoNotTrack", false]);
+            } else {
+              _paq.push(["setDoNotTrack", true]);
+            }
+            _paq.push(['trackPageView']);
+            _paq.push(['setDocumentTitle', document.domain + '/' + document.title]);
+            _paq.push(['enableLinkTracking']);
+            (function () {
+              var u = '//analytiikka.opintopolku.fi/';
+              _paq.push(['setTrackerUrl', u + 'matomo.php']);
+              _paq.push(['setSiteId', String(matomoSiteId)]);
+              var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+              g.async = true;
+              g.src = u + 'matomo.js';
+              s.parentNode.insertBefore(g, s);
+            })();
+          }
+        
+      }
+      var siteDomain = document.domain;
+      var documentUrl = document.URL;
+      var matomoSiteUrl;
+      
+      if (documentUrl.includes("/konfo/sv/")) {
+        document.documentElement.setAttribute('lang', 'sv');
+      } else if (documentUrl.includes("/konfo/en/")) {
+        document.documentElement.setAttribute('lang', 'en');
+      }
+
+      if (siteDomain === "opintopolku.fi") {
+        matomoSiteUrl = "https://analytiikka.ahtp.fi/";
+      } else {
+        matomoSiteUrl = "https://keha-matomo-sdg-qa-qa.azurewebsites.net/"; // Testi
+      }
+
+      var cookieconsentSettings = {
+        // Urls where matomo files can be found on the (matomo) server.
+        matomoSiteUrl: matomoSiteUrl,
+        matomoSiteId: "8",
+        // Params that are included in the tracking requests. See https://developer.matomo.org/api-reference/tracking-api
+        includedParams: ["idsite", "rec", "action_name", "url", "_id", "rand", "apiv"],
+      };
+      var hasInit = false;
+      var initMatomoTracker = function () {
+        try {
+          if (hasInit) return;
+          hasInit = true;
+          var tracker;
+          if (typeof Matomo !== 'undefined') {
+            tracker = Matomo;
+          } else {
+            tracker = Piwik;
+          }
+          var url = cookieconsentSettings.matomoSiteUrl;
+          var fixedUrl = url.charAt(url.length - 1) === '/' ? url : url + '/';
+          matomoTracker = tracker.getTracker(fixedUrl + "matomo.php", cookieconsentSettings.matomoSiteId);
+          var customRequestProcess = function (request) {
+            try {
+              var pairs = request.split("&");
+              var requestParametersArray = [];
+              for (var index = 0; index < pairs.length; ++index) {
+                var pair = pairs[index].split("=");
+                if (cookieconsentSettings.includedParams.indexOf(pair[0]) === -1) {
+                  continue;
+                }
+                requestParametersArray.push(pair[0] + "=" + pair[1]);
+              }
+              var osIndex = navigator.userAgent.indexOf(")");
+              var ua =
+                      osIndex !== -1
+                              ? navigator.userAgent.substring(0, osIndex + 1)
+                              : "Mozilla/5.0";
+              requestParametersArray.push("ua=" + ua);
+              return requestParametersArray.join("&");
+            } catch (err) {
+              return request;
+            }
+          };
+          matomoTracker.setCustomRequestProcessing(customRequestProcess);
+          matomoTracker.trackPageView();
+          matomoTracker.enableLinkTracking();
+        } catch (err) { }
+      };
+      if (typeof Matomo === 'undefined') {
+        window.matomoAsyncInit = initMatomoTracker;
+        window.piwikAsyncInit = initMatomoTracker;
+      }
+      else {
+        initMatomoTracker();
+      }
+    </script>
+    <title>Opintopolku</title>
+    <script type="module" crossorigin src="/konfo/assets/index-PieFwEvE.js"></script>
+    <link rel="modulepreload" crossorigin href="/konfo/assets/lodash-DeEs1cAQ.js">
+    <link rel="modulepreload" crossorigin href="/konfo/assets/vendor-rest-CNN0wNPS.js">
+    <link rel="modulepreload" crossorigin href="/konfo/assets/mui-DwKohOSO.js">
+    <link rel="modulepreload" crossorigin href="/konfo/assets/react-select-DDgoiV4A.js">
+    <link rel="modulepreload" crossorigin href="/konfo/assets/victory-5i3C8qKg.js">
+    <link rel="stylesheet" crossorigin href="/konfo/assets/vendor-rest-C8n3MJaH.css">
+    <link rel="stylesheet" crossorigin href="/konfo/assets/index-DxlH6SSZ.css">
+  </head>
+  <body>
+    <noscript> You need to enable JavaScript to run this app.</noscript>
+    <div id="wrapper"></div>
+  </body>
+</html>
